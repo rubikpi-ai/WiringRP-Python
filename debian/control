@@ -1,0 +1,13 @@
+Source: wiringrp-python
+Section: utils
+Priority: extra
+Maintainer: Hongyang Zhao <hongyang.zhao@thundersoft.com>
+Homepage: https://github.com/rubikpi-ai/WiringRP-Python
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+
+Package: wiringrp-python
+Architecture: arm64
+Depends: swig, libpython3.12-dev, ${misc:Depends}
+Description: GPIO development libraries for RUBIK Pi
+ Development libraries to allow GPIO access on a RUBIK Pi from Python programs.

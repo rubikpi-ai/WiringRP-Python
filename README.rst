@@ -1,3 +1,25 @@
+For WiringRP
+~~~~~~~~~~~~
+
+build and install
+========================
+
+``make``
+
+or
+
+``DESTDIR=/your/custom/path make``
+
+build deb binary packages
+========================================
+
+``fakeroot debian/rules binary``
+
+build deb source packages
+========================================
+
+``make source``
+
 :Warning: WiringPi was deprecated by its author in August 2019. As of 31st October 2023 nobody has shown an interest in properly maintaining it. Between this, and changes to GPIO in Rasberry Pi OS Bookworm and on the Raspberry Pi 5, this project is going nowhere. It has been archived to more clearly indicate this status.
 
 Note
